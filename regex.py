@@ -3,7 +3,7 @@ import re
 # Initializing regex function
 def check_password_strength(password):
     length = 8
-    upper_case = re.search(r'[A-Z]', password) is not None
+    upper_case = re.search(r'[A-Z]', password) 
     lower_case = re.search(r'[a-z]', password) is not None
     digits = re.search(r'\d', password) is not None
     special_characters = re.search(r'[!@#$%^&*(),.?":{}<>]', password) is not None
