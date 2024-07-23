@@ -24,7 +24,7 @@ print(f"The result of 5 raised to the power of 2 is: {result_power}")
 #additional mathematical operations
 
 additional_result_1 = math_operations.add(4 , 8)
-print(f"The additional result of adding 4 and 5 is: {additional_result_1}")
+print(f"The additional result of adding 4 and 8 is: {additional_result_1}")
 
 
 additional_result_2 = math_operations.subtract(5, 1)
